@@ -35,3 +35,4 @@ def process_images(files: List[UploadFile] = File(...)):
 @app.get("/check_api")
 def check_api():
     return {"status": "API is working correctly"}
+
